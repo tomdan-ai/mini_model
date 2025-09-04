@@ -31,6 +31,29 @@ with st.sidebar:
     st.write("• Brand reputation affects pricing")
     
     st.markdown("---")
+    
+    st.markdown("### 👨‍💻 Built By")
+    st.write("**Computer Engineering Students**")
+    st.write("**Group X**")
+    
+    st.markdown("### 🔗 Project Links")
+    st.markdown("**GitHub Repository:**")
+    st.markdown("[📁 View Source Code](https://github.com/tomdan-ai/mini_model)")
+    
+    st.markdown("### ⭐ Support Us")
+    st.write("If you find this tool helpful, please consider:")
+    st.markdown("⭐ [**Drop a Star on GitHub**](https://github.com/tomdan-ai/mini_model) ⭐")
+    st.write("Your support motivates us to build more awesome tools!")
+    
+    st.markdown("---")
+    
+    st.markdown("### 📈 Model Details")
+    st.write("• **Algorithm:** Linear Regression")
+    st.write("• **Training Data:** Historical laptop pricing")
+    st.write("• **Features:** 15+ specifications")
+    st.write("• **Accuracy:** Optimized for price estimation")
+    
+    st.markdown("---")
     st.markdown(f"**Last Updated:** {datetime.now().strftime('%Y-%m-%d')}")
 
 # Streamlit app
